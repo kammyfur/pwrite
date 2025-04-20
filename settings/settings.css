@@ -1,0 +1,23 @@
+#settings {
+    position: fixed;
+    background: #eeeeee;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#settings-title {
+    text-align: center;
+}
+
+#settings-quit {
+    position: fixed;
+    top: 48px;
+    right: 16px;
+    width: 36px;
+    cursor: pointer;
+}

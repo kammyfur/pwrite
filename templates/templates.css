@@ -1,0 +1,21 @@
+.template {
+    border: #bdbdbd solid 1px;
+    margin: 5px;
+    border-left: none !important;
+    border-right: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 5px 20px;
+    background-color: transparent;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+.template:hover {
+    background-color: #bdbdbd;
+}
+
+.template:active {
+    background-color: gray;
+}

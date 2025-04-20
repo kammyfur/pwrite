@@ -1,0 +1,34 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdDWDJFGL+UcMJhpARAWMAFyzCLET//u7x+WKp3E5W+EqdYrVzqeyEPIc4EDwZqoa03hpiMoPCSdKewGXYgAzpiBLtWvl
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSTk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSTk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJhZksaHErSXA==
+::ZQ05rAF9IBncCkqN+0xwdVsFAlTMbCXqZg==
+::ZQ05rAF9IAHYFVzEqQIdIRVASQeJfFuoCb8Z6/zor92CoH4NVeE6OKveyb+aL/Bz
+::eg0/rx1wNQPfEVWB+kM9LVsJDBOLMm+1EaZS6unvjw==
+::fBEirQZwNQPfEVWB+kM9LVsJDBOHPniqB7YZiA==
+::cRolqwZ3JBvQF1fEqQIHLRlnXAWBOSuWB6AS6+D+/Yo=
+::dhA7uBVwLU+EWHSN+lY1KxAUfBaNNm65EqZcxPz/oYo=
+::YQ03rBFzNR3SWATE100gMQldSwyWfMlzRpgV5vz+7OHHkl8SXuc8bJyb9qCKbqxTy0noNaQk0XJOi4s+CQhdbASuam8=
+::dhAmsQZ3MwfNWATE1VIxKxNRDCiLP260FbBcuog=
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdDWDJFGL+UcMJhpARAWMAFyzCLET//u7x+WKp3E5W+EqdYrVzqeyEPIc4EDwZqoa03hpiMoPCSdPdxyvYRgn52taswQ=
+::YB416Ek+ZG8=
+::
+::
+::978f952a14a936cc963da21a135fa983
+@win32_bin\dist\electron.exe .

@@ -1,0 +1,13 @@
+libpng warning: iCCP: known incorrect sRGB profile
+Cannot initialize model with data QJsonObject() . missing: QJsonValue(string, "urls")
+Hspell: can't open /usr/share/hspell/hebrew.wgz.sizes.
+sonnet.plugins.hspell: HSpellDict::HSpellDict: Init failed
+Cannot initialize model with data QJsonObject() . missing: QJsonValue(string, "urls")
+(electron) 'getUserAgent function' is deprecated and will be removed. Please use 'userAgent property' instead.
+(electron) 'setUserAgent function' is deprecated and will be removed. Please use 'userAgent property' instead.
+[26185:0502/002648.971446:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[26185:0502/002715.225125:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+(electron) 'getUserAgent function' is deprecated and will be removed. Please use 'userAgent property' instead.
+(electron) 'setUserAgent function' is deprecated and will be removed. Please use 'userAgent property' instead.
+[26979:0502/003335.197492:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[26979:0502/003446.365731:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command

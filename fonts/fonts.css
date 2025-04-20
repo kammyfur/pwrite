@@ -1,0 +1,7 @@
+.titlebar, .font, #status, #home, #settings, input, select, button {
+    font-family: system-ui, system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.hide {
+    display: none;
+}

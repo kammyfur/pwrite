@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>pWrite</title>
+        <script type="text/javascript">
+            const { remote } = require('electron');
+            const $ = require('jquery');
+            lastSaveContentHTML = "";
+            documentOpenned = false;
+            documentName = "";
+            documentPath = "";
+            documentRecovery = false;
+        </script>
+        <link rel="stylesheet" href="../loader/loader.css">
+        <link rel="stylesheet" href="../loader/loadertemp.css">
+    </head>
+    <body>
+        <div id="about" class="hide">
+            <span id="about-left">
+                <img id="about-img" src="../icon/pwrite.png" alt="..."><br>
+                <p id="about-dev">Minteck Projects</p>
+                <p id="about-title">pWrite</p>
+                <p id="about-credits">
+                    Copyright © Minteck Projects<br>
+                    <lang string="artwork" parent="loadetc"></lang><br><br>
+                    <lang string="copyright" parent="loadetc"></lang><br><br>
+                    <lang string="free" parent="loadetc"></lang><br><br>
+                    <lang string="version" parent="loadetc"></lang> <script>document.write(require('../package.json').version);</script>
+                </p>
+                <img src="../icon/mprj.png" alt="Minteck Projects" id="loader-app-serie">
+                <p><button onclick="document.getElementById('about').classList.add('hide');"><lang string="title" parent="about"></lang></button></p>
+            </span>
+            <span id="about-right">
+                <span id="about-artwork"></span>
+            </span>
+        </div>
+        <div id="loader-app">
+            <span id="loader-app-left">
+                <img id="loader-app-img" src="../icon/pwrite.png" alt="..."><br>
+                <p id="loader-app-dev">Minteck Projects</p>
+                <p id="loader-app-title">pWrite</p>
+                <p id="loader-app-progress"><lang string="init" parent="loading" /></p>
+                <p id="loader-app-credits">
+                    Copyright © Minteck Projects<br>
+                    <lang string="artwork" parent="loadetc"></lang><br>
+                    <lang string="icons" parent="loadetc"></lang><br><br>
+                    <lang string="copyright" parent="loadetc"></lang><br><br>
+                    <lang string="free" parent="loadetc"></lang><br><br>
+                    <lang string="version" parent="loadetc"></lang> <script>document.write(require('../package.json').version);</script>
+                </p>
+                <img src="../icon/mprj.png" alt="Minteck Projects" id="loader-app-serie">
+            </span>
+            <span id="loader-app-right">
+                <span id="loader-artwork"></span>
+            </span>
+        </div>
+        <div id="app" class="hide">
+            <div id="fileopenned" class="hide">
+                <div class="document-editor">
+                    <div class="document-editor__toolbar"></div>
+                    <div class="document-editor__editable-container">
+                        <div class="document-editor__editable">
+                        </div>
+                    </div>
+                </div>
+                <div id="status">
+                    <lang string="ready" />
+                </div>
+            </div>
+            <div id="home">
+                <h2 id="home-title"><lang string="title" parent="home" /></h2>
+                <center>
+                    <div id="home-grid">
+                        <div class="home-el" onclick="menuActions.new();">
+                            <img src="../icon/app/new.png" class="home-el-img">
+                            <span class="home-el-name"><lang string="new" parent="home" /></span>
+                        </div>
+                        <div class="home-el" onclick="menuActions.open.pwrite();">
+                            <img src="../icon/app/open.png" class="home-el-img">
+                            <span class="home-el-name"><lang string="open" parent="home" /></span>
+                        </div>
+                        <div class="home-el" onclick="menuActions.open.html();">
+                            <img src="../icon/app/open-html.png" class="home-el-img">
+                            <span class="home-el-name"><lang string="html" parent="home" /></span>
+                        </div>
+                    </div>
+                </center>
+                <h3><lang string="templates" parent="home" /></h3>
+                <div id="templates">
+                    <i><lang string="none" parent="templates" /></i>
+                </div>
+            </div>
+            <div id="settings" class="hide">
+                <h2 id="settings-title"><lang string="title" parent="settings" /></h2>
+                <img id="settings-quit" src="../icon/app/close.svg" alt="X" onclick="document.getElementById(olduiel).classList.remove('hide');document.getElementById('settings').classList.add('hide');window.title = oldwintt;">
+                <center>
+                    <p><lang string="reload" parent="settings"></lang></p>
+                    <p><lang string="lang" parent="settings"></lang> <select onchange="saveNewLang();" id="langlist"></select></p>
+                </center>
+            </div>
+        </div>
+        <iframe id="print-frame" class="hide"></iframe>
+    </body>
+    <script>datadir = require("../datadir/index");</script>
+    <script src="../lang/processor.js" charset="utf-8"></script>
+    <script src="../loader/loader.js" charset="utf-8"></script>
+</html>

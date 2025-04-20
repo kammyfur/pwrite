@@ -1,0 +1,81 @@
+#home {
+    position: fixed;
+    background: #eeeeee;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#home-title {
+    text-align: center;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-el {
+    padding: 10px;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 1px 1px 5px #e0e0e0;
+    border-radius: 10px;
+    transition: margin-top 200ms, margin-bottom 200ms, background-color 200ms, box-shadow 200ms;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-el:hover {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: #e0e0e0;
+    box-shadow: 1px 1px 12px #e0e0e0;
+}
+
+.home-el:hover .home-el:not(".home-el:hover") {
+    margin-bottom: -10px;
+}
+
+.home-el-img {
+    width: 64px;
+    display: block;
+}
+
+.home-el-name {
+    display: block;
+    margin-top: 8px;
+}
+
+#app {
+    height: calc(100% - 2px - 24px);
+}
+
+* {
+    outline: none;
+}
+
+select {
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 999px;
+    border: lightgray solid 1px;
+    margin-left: 5px;
+    transition: border 200ms, background-color 200ms, background 200ms;
+}
+
+select:hover {
+    background-color: rgb(196, 196, 196);
+    border: gray solid 1px;
+}
+
+select:active {
+    background-color: rgb(173, 173, 173);
+    border: black solid 1px;
+}

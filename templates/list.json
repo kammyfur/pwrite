@@ -1,0 +1,41 @@
+{
+    "fr": [
+        {
+            "file": "guide1.pwd",
+            "name": "Guide pWrite n°1 : Prise en main"
+        },
+        {
+            "file": "guide2.pwd",
+            "name": "Guide pWrite n°2 : Fonctions d'édition"
+        },
+        {
+            "file": "guide3.pwd",
+            "name": "Guide pWrite n°3 : Sauvegarde automatique"
+        },
+        {
+            "file": "guide4.pwd",
+            "name": "Guide pWrite n°4 : Import et export HTML"
+        },
+        {
+            "file": "guide5.pwd",
+            "name": "Guide pWrite n°5 : Ajout et modification des modèles"
+        },
+        {
+            "file": "guide6.pwd",
+            "name": "Guide pWrite n°6 : Fonctionnement interne de pWrite"
+        },
+        {
+            "file": "letter.pwd",
+            "name": "Lettre"
+        },
+        {
+            "file": "command.pwd",
+            "name": "Bon de commande"
+        },
+        {
+            "file": "register.pwd",
+            "name": "Formulaire d'inscription"
+        }
+    ],
+    "en": []
+}

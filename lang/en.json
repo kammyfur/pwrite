@@ -1,0 +1,286 @@
+{
+    "$name": "English",
+    "menu": {
+        "file": {
+            "title": "File",
+            "new": "New",
+            "open": {
+                "title": "Open",
+                "pwrite": "pWrite Document",
+                "html": "HTML Document",
+                "template": "Document Template"
+            },
+            "save": "Save",
+            "saveas": "Save as",
+            "export": "Export as HTML",
+            "print": "Print",
+            "close": "Close",
+            "quit": "Quit pWrite"
+        },
+        "edit": {
+            "title": "Edit",
+            "undo": "Undo",
+            "redo": "Redo",
+            "lang": {
+                "title": "Document Language",
+                "fr": "French",
+                "en": "English",
+                "es": "Spanish",
+                "de": "German",
+                "it": "Italian",
+                "nl": "Dutch",
+                "zh": "Chinese",
+                "jp": "Japanese",
+                "ru": "Russian"
+            }
+        },
+        "tools": {
+            "title": "Tools",
+            "settings": "User Preferences",
+            "dev": {
+                "title": "Developer Options",
+                "tools": "Open Chrome Dev Tools",
+                "reload": "Reload App"
+            }
+        },
+        "help": {
+            "title": "Help",
+            "about": "About pWrite",
+            "aboutmp": "About Minteck Projects",
+            "help": "pWrite Documentation"
+        }
+    },
+    "styles": {
+        "paragraph": "Paragraph",
+        "inline": "Inline Paragraph",
+        "h1": "Level 1 Title",
+        "h2": "Level 2 Title",
+        "h3": "Level 3 Title",
+        "h4": "Level 4 Title",
+        "h5": "Level 5 Title",
+        "h6": "Level 6 Title",
+        "center": "Centered",
+        "caps": "Small Caps",
+        "right": "Right Align"
+    },
+    "colors": {
+        "markers": {
+            "green": "Green Marker",
+            "yellow": "Yellow Marker",
+            "orange": "Orange Marker",
+            "pink": "Pink Marker",
+            "blue": "Blue Marker",
+            "black": "Black Marker"
+        },
+        "pens": {
+            "red": "Red",
+            "green": "Green",
+            "blue": "Blue",
+            "lightblue": "Light Blue",
+            "pink": "Pink",
+            "purple": "Purple",
+            "orange": "Orange",
+            "yellow": "Yellow"
+        }
+    },
+    "ready": "Ready",
+    "home": {
+        "title": "Bienvenue sur pWrite !",
+        "new": "Nouveau document",
+        "open": "Ouvrir un document pWrite",
+        "html": "Importer un fichier HTML",
+        "templates": "Modèles de documents"
+    },
+    "untitled": "Sans titre",
+    "recovered": "Document récupéré",
+    "confirm": [
+        "Le document ",
+        " a été modifié. Si vous continuez, vous perdrez toutes les modifications non sauvegardées.",
+        "Quitter sans sauvegarder",
+        "Ne pas quitter",
+        "Document modifié",
+        "Sauvegarder et quitter"
+    ],
+    "status": {
+        "new": "Nouveau document créé",
+        "saved": "Document sauvegardé — pensez à sauvegarder régulièrement pour éviter les pertes de données",
+        "openned": "Fichier ouvert — toute opération de sauvegarde écrira dans ce fichier",
+        "opennedhtml": "Fichier HTML importé",
+        "exported": "Fichier HTML exporté",
+        "template": "Modèle de document ouvert — pensez à sauvegarder vos modifications",
+        "autosave": "Sauvegarde automatique effectuée"
+    },
+    "dialogs": {
+        "save": {
+            "title": "Sauvegarder le document",
+            "extension": "Document pWrite",
+            "error": [
+                "Impossible de sauvegarder",
+                "Une erreur s'est produite lors de la sauvegarde du fichier"
+            ]
+        },
+        "notopenned": {
+            "title": "Aucun document ouvert",
+            "message": "Commencez par ouvrir un document pWrite, importer un fichier HTML, ou créer un nouveau document."
+        },
+        "replace": {
+            "title": "Fichier existant",
+            "message": "Un fichier portant le même nom existe déjà, que voulez-vous faire ?",
+            "replace": "Remplacer le fichier",
+            "cancel": "Annuler l'action"
+        },
+        "open": {
+            "notfound": [
+                "Fichier introuvable",
+                "Le fichier sélectionné ne peut pas être ouvert car il n'existe pas."
+            ],
+            "error": [
+                "Impossible d'ouvrir le fichier",
+                "Une erreur s'est produite lors de l'ouverture du fichier",
+                "Le fichier est corrompu. Assurez-vous de toujours sauvegarder correctement le fichier avant de quitter pWrite."
+            ],
+            "title": "Ouvrir un document",
+            "titlehtml": "Importer un fichier HTML",
+            "extensionhtml": "Page Web HTML"
+        },
+        "template": {
+            "notfound": [
+                "Fichier du modèle introuvable",
+                "Le fichier du modèle sélectionné ne peut pas être ouvert car il n'existe pas."
+            ],
+            "error": [
+                "Impossible d'ouvrir le modèle",
+                "Une erreur s'est produite lors de l'ouverture du modèle de document",
+                "Le fichier est corrompu. Essayez de réinstaller pWrite ou de télécharger les modèles séparemment."
+            ]
+        },
+        "convert": {
+            "title": "Conversion du fichier",
+            "message": "Le fichier HTML devra être converti au format pWrite",
+            "desc": "Pour fonctionner correctement, pWrite doit convertir les fichiers HTML en documents pWrite. Le fichier HTML sera ouvert comme un nouveau document sans titre, et devra être sauvegardé au format pWrite. Notez aussi que certaines balises HTML peuvent ne pas fonctionner ou s'afficher incorrectement dans pWrite."
+        },
+        "export": {
+            "title": "Exporter en HTML",
+            "error": [
+                "Impossible d'exporter",
+                "Une erreur s'est produite lors de l'exportation du fichier"
+            ]
+        },
+        "reloadui": {
+            "title": "Recharger l'interface du logiciel",
+            "message": "Ne rechargez l'interface de pWrite que si vous rencontrez des problèmes. Recharger l'interface du logiciel force le redémarrage de l'interface. De ce fait, toute donnée non sauvegardée sera perdue. Assurez vous de toujours sauvegarder les fichiers ouverts avant de recharger l'interface.",
+            "ok": "Recharger l'interface",
+            "cancel": "Annuler"
+        },
+        "usebackup": {
+            "title": "Récupération du fichier",
+            "message": "Une version plus récente de ce document a été enregistrée automatiquement depuis la dernière sauvegarde, mais le document n'a pas été fermé correctement, car pWrite/votre système/votre matériel/un autre logiciel a cessé de fonctionner ou un problème d'alimentation est survenu. Veillez à toujours fermer les documents et les enregistrer correctement. Que voulez-vous faire maintenant ?",
+            "ok": "Restaurer la version récupérée",
+            "cancel": "Ne pas restaurer la version récupérée"
+        },
+        "delbackup": {
+            "title": "Supprimer le fichier récupéré",
+            "message": "Lorsque vous avez ouvert ce fichier, une version récupérée a été détectée. Voulez-vous la supprimer maintenant ou la conserver jusqu'à la prochaine ouverture ?",
+            "ok": "Supprimer",
+            "cancel": "Conserver"
+        }
+    },
+    "loading": {
+        "init": "Initialisation...",
+        "js": "Chargement des scripts...",
+        "settings": "Lecture des paramètres...",
+        "setuppg": "Chargement des paramètres...",
+        "meta": "Chargement des métadonnées...",
+        "perms": "Vérification des permissions...",
+        "int": "Vérification de l'intégrité...",
+        "updates": "Recherche de mises à jour...",
+        "style": "Chargement des feuilles de style...",
+        "ui": "Chargement de l'interface...",
+        "debug": "En attente du débogueur",
+        "langlist": "Actualisation de la liste des langues...",
+        "confgen": "Génération de la configuration..."
+    },
+    "loadetc": {
+        "artwork": "Artwork par Andras Vas",
+        "icons": "Icônes fournies par Icons8 et CKEditor",
+        "free": "Ce logiciel est un logiciel gratuit. Si vous avez payé pour l'obtenir, vous êtes victime d'une arnaque et vous devez demander un remboursement...",
+        "copyright": "Ce logiciel est un logiciel libre : vous pouvez le redistribuer et/ou le modifier sous les termes de la licence publique générale GNU comme publiée par la Free Software Foundation, soit la version 3 de la licence, ou (comme vous le souhaitez) n'importe quelle version postérieure.",
+        "version": "version"
+    },
+    "settings": {
+        "title": "Préférences utilisateur",
+        "lang": "Langue du logiciel :",
+        "window": "Préférences",
+        "reload": "Relancez pWrite pour appliquer les nouveaux paramètres"
+    },
+    "about": {
+        "title": "Fermer cette page"
+    },
+    "templates": {
+        "none": "Les modèles de documents ne sont pas disponibles pour la langue choisie",
+        "empty": "Aucun modèle de document pour votre langue"
+    },
+    "devtools": {
+        "warning": "ATTENTION !",
+        "message": [
+            "Vous accédez à une option qui peut rendre pWrite vulnérable, ou votre fichier, voire votre machine entière.",
+            "Soyez sur de ce que vous faites, et %cne copiez collez pas%c de code provenant d'une source inconnue.",
+            "Minteck Projects et l'équipe pWrite ne pourront pas être tenus pour responsables si vous endommagez le logiciel, des fichiers ou votre appareil en écrivant du code arbitraire ici."
+        ]
+    },
+    "editor": {
+        "cbplain": "Texte brut"
+    },
+    "spellcheckmenu": {
+        "copymail": "Copier l'adresse email",
+        "copylink": "Copier l'adresse du lien",
+        "openlink": "Ouvrir le lien",
+        "copyimgsrc": "Copier le code de l'image",
+        "copyimg": "Copier l'image",
+        "add": "Ajouter au dictionnaire",
+        "lookup": "Chercher la définition de ",
+        "search": "Chercher avec Google",
+        "cut": "Couper",
+        "copy": "Copier",
+        "paste": "Coller",
+        "inspect": "Inspecter l'élément"
+    },
+    "palette": {
+        "black": [
+            "Noir",
+            "Gris foncé",
+            "Gris nuage foncé",
+            "Gris nuage",
+            "Gris",
+            "Gris clair",
+            "Gris fumée",
+            "Blanc fumée",
+            "Blanc"
+        ],
+        "colors": [
+            "$ noir pur",
+            "$ noir",
+            "$ noir léger",
+            "$ foncé",
+            "$",
+            "$ gris",
+            "$ gris clair",
+            "$ clair",
+            "$ fumée"
+        ],
+        "colornames": {
+            "red": "Rouge",
+            "orange": "Orange",
+            "yellow": "Jaune",
+            "ygreen": "Vert jaune",
+            "green": "Vert",
+            "bluegreen": "Turquoise",
+            "lightblue": "Bleu ciel",
+            "mpblue": "Cyan",
+            "blue": "Bleu",
+            "purple": "Pourpre",
+            "pink": "Rose",
+            "magenta": "Magenta"
+        }
+    }
+}

@@ -1,0 +1,145 @@
+#loader-artwork {
+    width: 100%;
+    height: 100%;
+    background-image: url("../loader/artwork.jpg");
+    background-size: contain;
+    background-size: 60vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+#loader-app {
+    position: fixed;
+    z-index: 999999999999999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #a03300;
+    color: white;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    font-family: system-ui, system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#loader-app-img {
+    width: 64px;
+    height: 64px;
+}
+
+#loader-app-left {
+    background: #79110d;
+    padding: 30px;
+}
+
+#loader-app-right {
+    background: #1b5aad;
+}
+
+#loader-app-title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+#loader-app-progress {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#loader-app-dev {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#loader-app-credits {
+    font-size: 10px;
+}
+
+#loader-img {
+    width: 64px;
+}
+
+#loader-app-serie {
+    width: 28px;
+}
+
+#about-artwork {
+    width: 100%;
+    height: 100%;
+    background-image: url("../loader/artwork.jpg");
+    background-size: contain;
+    background-size: 60vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+#about {
+    position: fixed;
+    z-index: 999999999999999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #a03300;
+    color: white;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    font-family: system-ui, system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#about-img {
+    width: 64px;
+    height: 64px;
+}
+
+#about-left {
+    background: #79110d;
+    padding: 30px;
+}
+
+#about-right {
+    background: #1b5aad;
+}
+
+#about-title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+#about-progress {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#about-dev {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#about-credits {
+    font-size: 10px;
+}
+
+#about-img {
+    width: 64px;
+}
+
+#about-serie {
+    width: 28px;
+}
+
+#app.hide {
+    display: none;
+}
+
+#loader-app.hide {
+    display: none !important;
+}
+
+#about.hide {
+    display: none !important;
+}

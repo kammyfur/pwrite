@@ -1,0 +1,7 @@
+{
+    "name": "webspace-datadir",
+    "version": "1.0.0",
+    "description": "Returns where the configuration of WebSpace should be saved depending on the OS",
+    "main": "index.js",
+    "author": "Minteck Projects"
+}
